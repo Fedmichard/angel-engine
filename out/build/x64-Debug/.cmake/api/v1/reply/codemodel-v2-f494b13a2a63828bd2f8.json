@@ -10,7 +10,7 @@
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.27"
+						"string" : "3.23"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "real-time-vulkan-simulation-engine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-real-time-vulkan-simulation-engine-Debug-c4182bf845314b3c9ca9.json",
-					"name" : "real-time-vulkan-simulation-engine",
+					"id" : "angel-engine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-angel-engine-Debug-daa2b592c386a83d7120.json",
+					"name" : "angel-engine",
 					"projectIndex" : 0
 				}
 			]

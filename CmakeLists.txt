@@ -1,9 +1,17 @@
-cmake_minimum_required(VERSION 3.27)
+# All CMake files will always have the same two commands at or near the top: cmake_minimum_required and project:
+cmake_minimum_required(VERSION 3.23)
+
+# Name of our project
 project(angel-engine)
 
+# C++ standard to use
 set(CMAKE_CXX_STANDARD 20)
 
+# The name of our target is angel-engine, and it is an executable. We will add source files to this target later.
+add_executable(angel-engine)
 
-add_executable(real-time-vulkan-simulation-engine
-    main.cpp
+# Source files to the angel-engine target
+target_sources(angel-engine
+	PRIVATE
+	src/main.cpp
 )
